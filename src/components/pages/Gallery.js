@@ -1,16 +1,13 @@
 import React from 'react';
 import '../../App.css';
-// import '../Gallery.css';
 import PicturesGallery from '../PicturesGallery';
-// import ImageGrid from '../ImageGrid';
-// import UploadForm from '../UploadForm';
+import ScrollToTop from '../ScrollToTop';
 
 export default function Gallery() {
     return (
         <div className="gallery">
-            <PicturesGallery />
-            {/* <UploadForm /> */}
-            {/* <ImageGrid /> */}            
+            <PicturesGallery />  
+            <ScrollToTop />        
         </div>
     )
 }

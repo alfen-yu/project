@@ -21,7 +21,6 @@ const PicturesGallery = () => {
     return (
         <>
             <h1 className="images-title">Media Center of SDECHS</h1>
-            {/* <p className="images-text">Pictures and Videos of SDECHS</p> */}
     <div className="images-container">
         <div className="images-row">
             <div className="images-column">

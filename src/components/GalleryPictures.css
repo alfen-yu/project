@@ -36,7 +36,6 @@
     height: 100%;
     cursor: pointer;
     border-radius: 5px;
-    /* filter: grayscale(1) brightness(0.5); */
     transition: 0.3s linear;
 }
 
@@ -58,5 +57,9 @@
     .images-container {
         position: absolute;
         top: 200px;
+    }
+
+    .images-title {
+        margin-top: 30px;
     }
 }

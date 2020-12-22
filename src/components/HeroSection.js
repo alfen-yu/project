@@ -10,9 +10,8 @@ function HeroSection() {
          <div className='hero-container'>
              {/* <video src={video} autoPlay loop muted /> */}
              <h1>Welcome to SDECHS!</h1>
-             {/* <p>What are you waiting for?</p> */}
              <div className='hero-btns'>
-             <Link to="/services" className="btn-mobile">
+             <Link to="/contactinfo" className="btn-mobile">
                  <Button className='btns' buttonStyle='btn-outline' buttonSize='btn-large'>
                      GET STARTED
                      </Button>
