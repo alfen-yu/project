@@ -1,0 +1,30 @@
+.card-1 {
+  border: 2px solid black;
+  max-width: 380px;
+  overflow: auto;
+  padding: 10px;
+
+}
+
+.card-1 h2 {
+  font-family: var(--font-secondary);
+  margin-left: 8px;
+
+}
+
+.card-1 p {
+  font-family: var(--font-secondary);
+  margin-left: 8px;
+
+}
+
+.card-1 button {
+  /* margin-left: 8px; */
+  padding: 10px;
+  margin-left: 8px;
+}
+
+.card-1 img {
+  width: 100%;
+  padding: 0px !important;
+}
