@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-subscription">
-                <p className="footer-subscription-heading">sdechs society</p>
+                <p className="footer-subscription-heading">Tabdeeli Passage</p>
                 <p className="footer-subscription-text">Unsubscribe</p>
                 <div className="input-areas">
                     <form>
@@ -22,7 +22,7 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Contact Us</h2>
-                        <Link to="https://www.facebook.com/junaid.akram/">How it works</Link>
+                        <Link to="">How it works</Link>
                         <Link to="/services">Testimonials</Link>
                         <Link to="/gallery">Terms of Service</Link>
                     </div>
@@ -38,10 +38,10 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to="/" className="social-logo">
-                            SDECHS
+                            Tabdeeli Passage
                         </Link>
                     </div>
-                    <small className="website-rights">SDECHS © 2020</small>
+                    <small className="website-rights">Tabdeeli Passage © 2020</small>
                     <div className='social-icons'>
                         <Link className="social-icon-link facebook" 
                         to="/"

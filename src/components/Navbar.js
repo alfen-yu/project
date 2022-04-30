@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-// import logo from '../images/sdechslogo1.png';
-// import {Button} from './Button.js';
+
 import './Navbar.css'
 
 function Navbar() {
@@ -28,7 +27,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    SDECHS
+                    Tabdeeli Passage
                 {/* <img src={logo} alt="Logo" className="logo-img" /> */}
                 </Link>
                 <div className='menu-icon' onClick={ handleClick }>
@@ -39,18 +38,11 @@ function Navbar() {
                     <Link to="/" className='nav-links' onClick={closeMobileMenu}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contactinfo" className='nav-links' onClick={closeMobileMenu}>Contact & Info</Link>
+                    <Link to="/bookinginfo" className='nav-links' onClick={closeMobileMenu}>Booking & Info</Link>
                 </li>
-                <li className="nav-item">
-                    <Link to="/gallery" className='nav-links' onClick={closeMobileMenu}>Gallery</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/news" className='nav-links' onClick={closeMobileMenu}>News & Events</Link>
-                </li>
+               
             </ul>
-            {/* <Link to="/sign-up" className="btn-mobile">
-            {button && <Button buttonStyle='btn-outline'>Sign Up</Button>}
-            </Link> */}
+          
             </div>
         </nav>
     )
